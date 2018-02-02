@@ -1,3 +1,2 @@
-exports.stripFlagDashes = function(flagWithDash) {
-    return flagWithDash.substring(2);
-}
+exports.stripFlagDashes = (flagWithDash) => flagWithDash.substring(2);
+g
